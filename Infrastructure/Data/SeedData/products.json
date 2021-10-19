@@ -1,0 +1,243 @@
+[
+  {
+    "Name": "Apple iPhone 13 Pro Max, 128GB, 5G, Sierra Blue",
+    "Description": "Ecran Super Retina XDR cu ProMotion pentru imagini fluide si reactii prompte. Upgrade substantial al sistemului de camere pentru noi posibilitati spectaculoase. Durabilitate exceptionala. Cip ultra rapid A15 Bionic. Autonomie senzationala a bateriei. Pe scurt, Pro.\nUn design la fel de incantator pe cat este de durabil, cu otel inoxidabil de calitate chirurgicala, Ceramic Shield si rezistenta la apa de nivel avansat.",
+    "Price": 6199.99,
+    "PictureUrl": "images/products/iphone13promax-sierrablue.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Apple iPhone 13, 128GB, 5G, Starlight",
+    "Description": "Ecran superstralucitor intr-un design rezistent. Filmari demne de Hollywood, mai usor de realizat ca niciodata. Cip uluitor de rapid. Crestere consistenta a autonomiei bateriei, pe care o vei remarca zi de zi.\nUn afisaj OLED cu, culori mai vii, care este, in acelasi timp, mai usor de vazut in lumina soarelui si mai eficient din punct de vedere energetic. Cu un design durabil, care este rezistent la apa si praf.",
+    "Price": 5199.99,
+    "PictureUrl": "images/products/iphone13-starlight.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "OnePlus Nord 2, 5G, 128GB, 8GB, Gray Sierra",
+    "Description": "Am oferit smartphone-ului OnePlus Nord 2 o tehnologie de imbunatatire a performantei si am adaugat un sistem de camera tripla AI de 50 MP cu senzor Sony IMX766, stabilizare optica a imaginii (OIS) si o gramada de vrajitorie AI. Esti pregatit pentru filmari de nivel urmator?",
+    "Price": 2349.99,
+    "PictureUrl": "images/products/oneplus-nord2-graysierra.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "OnePlus 9 Pro, 256GB, 12GB RAM, Dual SIM 5G, Silver",
+    "Description": "OnePlus 9 Pro prezinta ecran cu margini laterale curbate, Fluid2 AMOLED 6.7 inch cu rezolutie QHD+ si refresh 120Hz, amprenta optica sub ecran, camera Hasselblad cu rezolutie 48+8+50+2 MP, chipset Qualcomm Snapdragon 888 la 2.84Ghz cu procesare grafica 1.720 Gflops si baterie 4500mAh cu incarcare ultra rapida 65W. Sistem de operare Android 11 cu interfata Oxygen OS, meniu global si actualizari online.",
+    "Price": 4649.99,
+    "PictureUrl": "images/products/iphone13-starlight.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Samsung Galaxy S20 FE, Dual SIM, 128GB, 6GB RAM, 5G, Cloud Navy",
+    "Description": "Acesta este un telefonul pentru cei care isi doresc totul. V-am ascultat pe voi, fanii, iar ceea ce am creat este un telefon care nu accepta niciun compromis. Acesta este telefonul creat special pentru fanii de toate tipurile. Asa ca, indiferent daca esti fan al fotografiei, al jocurilor sau al transmiterii in feed-ul tau a tot ceea ce te inspira, iti oferim un telefon care contine tot ce poate fi mai bun in materie de inovatie din gama S20. Acesta este telefonul care iti ofera tot ce vrei, pentru a face cat mai mult din ceea ce iti place.",
+    "Price": 2649.99,
+    "PictureUrl": "images/products/s20fe-cloudnavy.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Xiaomi Redmi Note 9 Pro, Dual SIM, 128GB, 6GB RAM, 4G, Tropical Green",
+    "Description": "XIAOMI Redmi Note 9 Pro dispune de un sistem cu patru camere. Camera de 64MP captureaza imagini clare pentru a pastra momentele favorite. Camerele Ultra Wide, Macro si Depth se asigura ca vei avea cele mai bune fotografii ale scenei pe care o capturezi.\nNimic nu este mai linistitor decat o baterie mare de pana la 5020mAh si o incarcare super rapida de 30W. Ai la dispozitie 16 ore de navigare continua, 147 ore de muzica si 13 ore de joc.",
+    "Price": 1099.99,
+    "PictureUrl": "images/products/redminote0pro-tropicalgreen.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "POCO X3 Pro, Dual SIM, 256GB, 8GB RAM, 4G, Phantom Black",
+    "Description": "Procesorul Qualcomm Snapdragon 860 nu va va dezamagi nici macar atunci cand jucati jocuri solicitante din punct de vedere grafic in setari inalte. Bucurati-va de viteze mari si de joc online fara intarziere.",
+    "Price": 1399.99,
+    "PictureUrl": "images/products/pocox3pro-phantomblack.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Samsung Galaxy S21 Ultra, Dual SIM, 128GB, 12GB RAM, 5G, Phantom Black",
+    "Description": "Îți prezentăm Galaxy S21 Ultra 5G. Proiectat cu o cameră unică fără contururi pentru a crea o revoluție în fotografie - permițându-ți să captezi videoclipuri dinamice de 8K și să faci fotografii epice, totul dintr-o singură acțiune. Iar cu cel mai rapid cip Galaxy, cea mai rezistentă sticlă, 5G și o baterie cu autonomie pentru întreaga zi, Ultra își confirmă reputația.",
+    "Price": 6149.99,
+    "PictureUrl": "images/products/s21ultra-phantomblack.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "LENOVO IdeaPad 3 14ADA05, AMD Ryzen 7 3700U, 14\" Full HD, 8GB, SSD 512GB, AMD Radeon RX Vega 10 Graphics, Free Dos, gri metalic",
+    "Description": "IdeaPad 3 iese din tipar cu privire la ceea ce poate face un laptop proiectat pentru utilizatorii de zi cu zi. Datorita procesoarelor de ultima generatie AMD Ryzen puteti face mai mult cu PC-ul dvs. si va puteti bucura de o experienta bogata de divertisment.",
+    "Price": 2199.99,
+    "PictureUrl": "images/products/ideapad3-14ada05.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "LENOVO IdeaPad Gaming 3 15ACH6, AMD Ryzen 5 5600H, 15.6\" Full HD, 16GB, SSD 512GB, NVIDIA GeForce GTX 1650, Free DOS, negru",
+    "Description": "Rulati jocurile preferate fara probleme, in modul in care acestea au fost menit sa fie jucate cu NVIDIA ® GeForce ® GTX grafice, procesoare AMD Ryzen ™ 5000 H-Series, memorie DDR4, si optiuni de stocare M.2 NVMe PCIe SSD. Aceste caracteristici puternice va asigura ca puteti rula jocuri pe setari inalte, astfel incat veti avea intotdeauna avantajul de a vedea fiecare detaliu in mediul dvs. de joc.",
+    "Price": 3599.99,
+    "PictureUrl": "images/products/idepad3-15ach6.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "LENOVO Legion 5 15ACH6H, AMD Ryzen 5 5600H, 15.6\" Full HD, 16GB, SSD 512GB, NVIDIA GeForce RTX 3060 6GB, Free Dos, negru",
+    "Description": "Se spune ca in viata se fac multe compromisuri. Unul dintre ele ar fi acela cum ca nu puteti avea o performanta de top si o durata lunga a bateriei pe acelasi laptop. Sau ca un laptop cu o performanta de exceptie trebuie sa fie mare, greu si voluminos. Ei bine, laptop-ul Legion 5 este exceptia de la regula. Acum va puteti bucura de o performanta de elita, conceputa pentru jocuri, pe un dispozitiv usor, subtire, caracterizat de o formidabila durata de viata a bateriei, multumita seriei de procesoare mobile AMD Ryzen™ 5000 H. Asadar, nu mai aveti de ce sa faceti vreodata compromisuri cand vine vorba de un laptop pentru jocuri.",
+    "Price": 5499.99,
+    "PictureUrl": "images/products/legion5-15ach6h.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "ASUS ROG Zephyrus G14 GA401QH, AMD Ryzen 7 5800HS, 14\", Full HD, 8GB, 512GB SSD, NVIDIA GeForce GTX 1650, Free DOS, Moonlight White",
+    "Description": "Dinamic si gata sa te insoteasca in calatorii, inovativul sistem ROG Zephyrus G14 este cel mai puternic laptop de 14 inchi pentru jocuri. Depaseste-ti toti competitorii cu ajutorul procesorului AMD Ryzen™ Seria 5000 cu 8 nuclee si a puternicului GPU GeForce GTX ce te ajuta atat in jocuri, cat si la indeplinirea rapida a tuturor sarcinilor de utilizare zilnica. Cele patru difuzoare creeaza un sunet extraordinar cu ajutorul solutiei incredibile Dolby Atmos pentru o experienta deosebit de imersiva in filme, jocuri, muzica si multe altele. Traieste-ti viata la viteza Zephyrus cu un laptop pentru jocuri portabil si usor, si fii activ oriunde te-ai afla.",
+    "Price": 4199.99,
+    "PictureUrl": "images/products/rog-g14-ga401qh.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "ASUS ZenBook Duo 14 UX482, Intel Core™ i7-1165G7, 14\", Full HD, 16GB, 1TB SSD, Intel Iris Xe Graphics, Windows 10 Pro, Celestial Blue",
+    "Description": "ZenBook Duo 14 va permite sa faceti lucrurile cu stil: calm, eficient si fara agitatie. Este partenerul dvs. puternic si elegant pentru productivitate si creativitate in miscare, oferind afisajul secundar ScreenPad ™ Plus cu un design nou de inclinare, care ofera ergonomie si fluxuri de lucru fara probleme. Alimentat de cele mai recente procesoare Intel® Core ™ din a 11-a generatie, ZenBook Duo 14 va aduce astazi toate avantajele tehnologiei de maine.",
+    "Price": 6999.99,
+    "PictureUrl": "images/products/zenbookpro-duo14.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "ASUS ROG Strix SCAR 15 G533QS, AMD Ryzen 9 5900HX, 15.6\", Full HD, 300Hz, 32GB, 1TB SSD, NVIDIA GeForce RTX 3080, Free DOS, Black",
+    "Description": "Joaca-te la cel mai inalt nivel cu ajutorul modelului ROG Strix SCAR 15. Abordeaza cu succes orice provocare cu ajutorul puternicului procesor AMD Ryzen™ 9 5900HX si placii video GeForce® RTX™ 3080. Lanseaza-te in competiile de jocuri cu ajutorul unui afisaj ultra-rapid de pana la 300Hz/3ms. Introdu fiecare lovitura cu un nivel foarte ridicat de precizie prin intermediul tastaturii mecanice optice cu un nivel foarte bun de raspuns. Cu ajutorul unui avantaj competitiv atat de important, vei domina cu siguranta orice arena de jocuri.",
+    "Price": 11999.99,
+    "PictureUrl": "images/products/rogstrix-scar15.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Apple MacBook Air 13, True Tone, Apple M1, 8 nuclee CPU si 7 nuclee GPU, 8GB, 256GB, Space Grey, INT KB",
+    "Description": "Cel mai subtire si mai usor notebook-ul nostru, complet transformat de cipul Apple M1. Viteza procesorului de pana la de 3,5 ori mai rapida. Viteza GPU-ului de pana la 5 ori mai rapida. Cel mai avansat motor neuronal pentru invatare automata de pana la de 9 ori mai rapida. Cea mai mare autonomie a bateriei vreodata pe un MacBook Air. Si un design silentios, fanless. Atata putere nu a fost niciodata atat de pregatita.",
+    "Price": 4899.99,
+    "PictureUrl": "images/products/mbair13-m1.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "MacBook Pro 13, True Tone, Apple M1, 8 nuclee CPU si 8 nuclee GPU, 16GB, 512GB SSD, INT Kb, Space Grey",
+    "Description": "Cipul Apple M1 confera MacBook-ului Pro de 13 inchi o viteza si o putere de neimaginat. Cu performanta CPU pana la de 2,8x mai rapida. Performanta grafica pana la de 5x mai rapida. Cel mai avansat Neural Engine de la Apple pentru machine learning de 11x mai rapida. Si pana la 20 de ore de baterie, un record absolut pentru Mac. Este notebookul nostru cel mai popular pentru profesionisti, dus la un nivel complet nou.",
+    "Price": 8899.99,
+    "PictureUrl": "images/products/mbpro13-m1.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+
+  {
+    "Name": "Apple MacBook Pro 16, Touch Bar, Intel Core i9, 16GB, 1TB SSD, Radeon Pro 5500M 4GB, Silver, INT KB",
+    "Description": "Conceput pentru cei care sfideaza limitele si schimba lumea, noul MacBook Pro este de departe cel mai puternic notebook crea vreodata de Apple. Cu un ecran Retina captivant de 16 inchi, procesoare super rapide, grafica din generatia urmatoare, cea mai mare capacitate a bateriei din toate timpurile pentru un MacBook Pro, o noua tastatura Magic Keyboard si spatiu de stocare masiv, este notebookul profesional suprem pentru cei mai avansati utilizatori.",
+    "Price": 13699.99,
+    "PictureUrl": "images/products/mbpro16.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "DELL XPS 9500, Intel Core i7-10750H, 15.6\" UHD+, 16GB, SSD 1TB, NVIDIA GeForce GTX 1650 Ti 4GB, Windows 10 Pro, alb",
+    "Description": "Stefana si Sorin recomanda ca mai bine sa va luati Macbook Pro de banii astia, lmao",
+    "Price": 12799.99,
+    "PictureUrl": "images/products/xps-9500.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "MICROSOFT Surface Studio 2, Intel Core i7-7820HQ, 28\" Touch, 32GB, 2TB, NVIDIA GeForce GTX 1070 8GB, Windows 10 Pro",
+    "Description": "Transforma-ti desktopul in propriul studio si foloseste software imersive precum SolidWorks, Adobe Creative Cloud si Autodesk. Scufundati-va cu procesoarele Intel® Core ™ i7-7820HQ, stocarea SSD pentru o gestionare mai rapida a fisierelor si mai multa memorie grafica pentru a va gestiona fluxul de lucru si pentru a sprijini jocul, realitatea mixta si VR.",
+    "Price": 21749.99,
+    "PictureUrl": "images/products/surfacepro2.webp",
+    "ProductTypeId": 4,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "APPLE iMac (2021), 24\" Retina 4.5K, Apple M1, 8GB, SSD 512GB, 8-core GPU, macOS Big Sur, Silver, Tastatura layout INT",
+    "Description": "Pur si simplu. Incredibil. Cu sapte culori vibrante◊ si un design uluitor, iMac transforma orice spatiu. Are doar 11,5 mm grosime si cantareste mai putin de 5 kilograme.",
+    "Price": 9399.99,
+    "PictureUrl": "images/products/imac2021.webp",
+    "ProductTypeId": 4,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "LENOVO IdeaCentre 5 24IMB05, Intel Core i7-10700T, 23.8\" Full HD, 16GB, SSD 512GB, Intel UHD Graphics 630, Free DOS, negru",
+    "Description": "Luand reperul din natura, elegantul IdeaCentre A540 este inspirat de chiparos: perfect echilibrat si durabil. Nu sacrifica nimic in ceea ce priveste performanta, acest PC all-in-one este un plus atractiv pentru casa sau biroul tau.",
+    "Price": 5099.99,
+    "PictureUrl": "images/products/ideacentre5-24imb05.webp",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "ASUS ROG Strix GA35 G35DX-RO018T, AMD Ryzen 9 5900X, 32GB, 1TB + SSD 1TB, NVIDIA GeForce RTX 3080 10GB, Windows 10 Home",
+    "Description": "Domina lumile virtuale ale jocurilor si nu numai cu ajutorul puternicului sistem ROG Strix GA35. Jocurile pline de actiune ruleaza rapid si fluid pe sistemul de operare Windows 10 Pro si pe placa video pana la NVIDIA® GeForce RTX™ 2080 Ti, in timp ce procesorul pana la AMD® Ryzen™ 9 3950X cu 16 nuclee accelereaza sarcinile de lucru dificile, cum ar fi crearea de continut sau rularea in paralel a mai multor aplicatii. Performantele ridicate, perfecte pentru turneele de jocuri, sunt complementate de design-ul ce permite transportul usor al sistemului, acesta fiind dotat cu un maner integrat, doua unitati de stocare SSD cu schimbare rapida a unitatilor active si tehnologie Keystone II pentru comutarea usoara a profilurilor de utilizare active in timpul competitiilor de jocuri si evenimentelor LAN.",
+    "Price": 17099.99,
+    "PictureUrl": "images/products/strix-ga35.webp",
+    "ProductTypeId": 4,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "ASUS ProArt Station D940MX-79700K058R, Intel Core i7-9700K, 16GB, 1TB + SSD 1TB, NVIDIA Quadro RTX 4000 8GB, Windows 10 Pro",
+    "Description": "A venit momentul sa ridicam stacheta performantelor oferite de sistemele ultra-compacte. Subtire, puternic si proiectat pentru profesionistii din domeniul creativ, ProArt Station D940MX incorporeaza un procesor si placa video de nivel profesionist intr-o carcasa mica si subtire. Designul sau neconventional include un indicator LED ce ofera informatii privind starea actuala a PC-ului, sistemul fiind echipat si cu un sistem de racire avansat, inclusiv cu solutie hibrida si design multi-zonal, ce asigura o functionare cursiva si silentioasa chiar si la niveluri de incarcare foarte ridicate.",
+    "Price": 9899.99,
+    "PictureUrl": "images/products/asus-proart-station.webp",
+    "ProductTypeId": 4,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Monitor Gaming curbat LED VA SAMSUNG LC27RG50FQRXEN, 27\", Full HD, 240Hz, G-Sync, negru",
+    "Description": "Lider in monitoare curbate, Samsung a condus piata monitoarelor curbate din momentul in care au introdus pentru prima data ecranele inovative in anul 2015. Cu o tehnologie de varf, monitoarele curbate Samsung sunt in permanenta numarul 1 pe piata si prima alegere a consumatorilor",
+    "Price": 1099.99,
+    "PictureUrl": "images/products/samsung-va-lc27.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Monitor LED VA LG 32UL750-W, 31.5\", 4K UHD, HDR 600, Radeon FreeSync, 60Hz, alb",
+    "Description": "Rezoluția 4K UHD oferă claritate extremă și detalii fine, fiind de patru ori mai puternică decât rezoluția Full HD. Datorită acestei caracteristici, utilizatorii pot savura plăcerea unei vizualizări captivante. Monitorul este compatibil cu VESA DisplayHDR™ 600 cu luminozitate și contrast într-o gamă largă de opțiuni, permițând imersiunea vizuală dramatică în cele mai recente jocuri, filme și imagini HDR.",
+    "Price": 2399.99,
+    "PictureUrl": "images/products/lg-va-32ul750",
+    "ProductTypeId": 3,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Monitor Gaming LED VA DELL S2422HG, 23.6\", Full HD, 165 Hz, FreeSync, negru",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 999,
+    "PictureUrl": "images/products/dell-va-s2422hg.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Monitor Gaming LED IPS LG UltraGear 27GN850-B, 27\" QHD, NVIDIA G-Sync, 144Hz, negru",
+    "Description": "Varful monitoarelor de jocuri. Completati-va statia de lupta cu un monitor de joc premium LG UltraGear ™. Construit pentru jucatori, ofera cele mai noi hardware, specificatii, ergonomie, design elegant si experienta senzoriala. Cu functii axate pe jocuri, cum ar fi compatibilitatea NVIDIA® G-SYNC®, timpi de raspuns de 1 ms GTG, personalizare la nivel profesional si panouri IPS rapide si vii, nu este de mirare ca este marca # 1 a monitorului conceput pentru jocuri in SUA.",
+    "Price": 1799.99,
+    "PictureUrl": "images/products/lg-ultragear27.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 8
+  },
+  {
+    "Name": "Monitor Gaming LED VA DELL S3422DW, 34\", WQHD, 100Hz, AMD FreeSync, argintiu",
+    "Description": "Imagini panoramice: designul cu cadru ultrasubtire pe trei laturi si ecran curbat ultralat WQHD (3.440 x 1.440) va ofera experiente de vizualizare captivante, la o claritate de exceptie si detalii de finete.\nParticipati la actiune: ecranul curbat 1800R extinde campul de vizionzare pana la un raport de aspect ultralat de 21:9, pentru o vizualizare completa care va invaluie intr-o experienta cinematografica remarcabila.\nCulori mai detaliate, uimitoare: tehnologia de afisare aliniere verticala (VA) ofera un raport de contrast extins de 3000:1, iar spectrul culori de peste 99% sRGB si peste 90% DCI-P3 va aduce culori intense, profunzime optimizata si o gama mai larga de nuante.\nJocuri de recreere: experienta lina, fara efect de tearing, cu tehnologie AMD FreeSync™, care ofera o rata de reimprospatare de pana la 100 Hz.\nSunet de calitate superioara: beneficiati de sunete realiste, de ritmuri alerte si de o experienta generala imbunatatita, cu doua boxe 5W incorporate, reglate in mod profesional prin tehnologia Waves MaxxAudio premiata®.\nNu va oboseste ochii: acest monitor cu certificare TÜV are un ecran fara scintilatii, cu tehnologie ComfortView, care reduce emisiile daunatoare de lumina albastra. Este conceput sa optimizeze confortul pentru ochi pe durate lungi de vizualizare, cum ar fi in timpul urmatorului dvs. maraton de vizionare a filmelor.",
+    "Price": 1899.99,
+    "PictureUrl": "images/products/dell-va-s3422dw.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Monitor Gaming curbat IPS LED DELL Alienware, 37.5\", WQHD+, 144Hz, NVIDIA G-SYNC Ultimate, negru",
+    "Description": "Pe cat de real se poate: In afara de a va oferi imagini surprinzator de realiste, VESA DisplayHDR ™ 600 cu estompare localizata, imbunatateste raportul de contrast cu o adancime mai mare a culorii, o claritate remarcabila si un efect de halou redus.\nFiecare culoare acoperita: tehnologia IPS Nano Color este standardul cinematografic care ofera o acoperire mai larga a culorilor decat sRGB, permitand culorilor sa fie mai bogate si mai realiste. In plus, suporta 95% DCI-P3 pe un unghi larg de vizualizare.\nPaseste in interior: un ecran curbat 2300R cu un raport de aspect 21: 9 ofera o experienta de joc cu adevarat captivanta prin imbunatatirea campului vizual, reducand in acelasi timp distorsiunea, stralucirea si reflexia. De asemenea, creeaza o experienta de joc cu adevarat captivanta prin utilizarea viziunii periferice.\nVedeti fiecare detaliu: Imaginile prind viata cu un ecran WQHD + curbat de 37,5\", care ofera cu 24% mai multi pixeli de ecran decat WQHD (3440 x 1440) pentru o vizualizare mai extinsa.",
+    "Price": 6299.99,
+    "PictureUrl": "images/products/dell-alienware-37.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Monitor Gaming LED IPS LG 34UM69G-B, 34\", UltraWide Full HD, negru",
+    "Description": "Afisajul Full HD UltraWide 21: 9 face jocurile mai rapide. Reducerea miscarii de 1 ms permite jucatorilor sa se bucure de precizia necesara pentru a juca la un nivel foarte ridicat. Cu un timp de raspuns de 1ms, intreruperea este redusa pentru a face actiunea mai usoara si jocurile mai precise.\nDesignul este unul foarte elegant datorita accentelor de culoare rosie de pe suportul din fata.",
+    "Price": 1399.99,
+    "PictureUrl": "images/products/lg-ips-34.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 8
+  }
+]
