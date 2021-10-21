@@ -124,8 +124,8 @@
     "Description": "Cipul Apple M1 confera MacBook-ului Pro de 13 inchi o viteza si o putere de neimaginat. Cu performanta CPU pana la de 2,8x mai rapida. Performanta grafica pana la de 5x mai rapida. Cel mai avansat Neural Engine de la Apple pentru machine learning de 11x mai rapida. Si pana la 20 de ore de baterie, un record absolut pentru Mac. Este notebookul nostru cel mai popular pentru profesionisti, dus la un nivel complet nou.",
     "Price": 8899.99,
     "PictureUrl": "images/products/mbpro13-m1.webp",
-    "ProductTypeId": 3,
-    "ProductBrandId": 6
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
   },
 
   {
@@ -133,16 +133,16 @@
     "Description": "Conceput pentru cei care sfideaza limitele si schimba lumea, noul MacBook Pro este de departe cel mai puternic notebook crea vreodata de Apple. Cu un ecran Retina captivant de 16 inchi, procesoare super rapide, grafica din generatia urmatoare, cea mai mare capacitate a bateriei din toate timpurile pentru un MacBook Pro, o noua tastatura Magic Keyboard si spatiu de stocare masiv, este notebookul profesional suprem pentru cei mai avansati utilizatori.",
     "Price": 13699.99,
     "PictureUrl": "images/products/mbpro16.webp",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
   },
   {
     "Name": "DELL XPS 9500, Intel Core i7-10750H, 15.6\" UHD+, 16GB, SSD 1TB, NVIDIA GeForce GTX 1650 Ti 4GB, Windows 10 Pro, alb",
     "Description": "Stefana si Sorin recomanda ca mai bine sa va luati Macbook Pro de banii astia, lmao",
     "Price": 12799.99,
     "PictureUrl": "images/products/xps-9500.webp",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
   },
   {
     "Name": "MICROSOFT Surface Studio 2, Intel Core i7-7820HQ, 28\" Touch, 32GB, 2TB, NVIDIA GeForce GTX 1070 8GB, Windows 10 Pro",
