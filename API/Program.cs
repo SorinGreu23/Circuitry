@@ -1,45 +1,58 @@
-using System;
-using System.Threading.Tasks;
-using Infrastructure.Data;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+var builder = WebApplication.CreateBuilder(args);
 
-namespace API
+
+// Add Services to Container
+
+builder.Services.AddAutoMapper(typeof(MappingProfiles));
+builder.Services.AddControllers();
+builder.Services.AddDbContext<StoreContext>(x => x.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddApplicationServices();
+builder.Services.AddSwaggerDocumentation();
+builder.Services.AddCors(opt =>
 {
-    public class Program
+    opt.AddPolicy("CorsPolicy", policy =>
     {
-        public static async Task Main(string[] args)
-        {
-            var host = CreateHostBuilder(args).Build();
-            using (var scope = host.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+        policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
+    });
+});
 
-                try
-                {
-                     var context = services.GetRequiredService<StoreContext>();
-                     await context.Database.MigrateAsync();
-                     await StoreContextSeed.SeedAsync(context, loggerFactory);
-                }
-                catch (Exception ex)
-                {
-                    var logger = loggerFactory.CreateLogger<Program>();
-                    logger.LogError(ex, "An error occured during migration");
-                    throw;
-                }
-            }
-            host.Run();
-        }
+// Configure the HTTP request pipeline
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-    }
+var app = builder.Build();
+
+app.UseMiddleware<ExceptionMiddleware>();
+
+app.UseStatusCodePagesWithReExecute("/errors/{0}");
+
+app.UseHttpsRedirection();
+
+app.UseRouting();
+
+app.UseStaticFiles();
+
+app.UseCors("CorsPolicy");
+
+app.UseAuthorization();
+
+app.UseSwaggerDocumentation();
+
+app.MapControllers();
+
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+
+try
+{
+    var context = services.GetRequiredService<StoreContext>();
+    await context.Database.MigrateAsync();
+    await StoreContextSeed.SeedAsync(context, loggerFactory);
 }
+catch (Exception ex)
+{
+    var logger = loggerFactory.CreateLogger<Program>();
+    logger.LogError(ex, "An error occured during migration");
+    throw;
+}
+
+await app.RunAsync();
