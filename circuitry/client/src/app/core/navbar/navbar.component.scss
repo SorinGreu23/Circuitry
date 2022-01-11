@@ -11,6 +11,20 @@
   right: 32px;
 }
 
-* {
+a {
   text-decoration: none;
+  color: #343a40;
+
+  &.active {
+    color: #115ea6;
+  }
+}
+
+.logo{
+  max-height: 50px;
+  cursor: pointer;
+
+  &:focus{
+    outline: none;
+  }
 }

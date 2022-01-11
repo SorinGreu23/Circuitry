@@ -6,17 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreModule } from './core/core.module';
-import { ShopModule } from './shop/shop.module';
+import { HomeModule } from './home/home.module';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AboutComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule,
-    ShopModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],
