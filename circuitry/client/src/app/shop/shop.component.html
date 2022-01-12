@@ -1,7 +1,8 @@
-<div class="container">
+<div class="container mt-5">
   <div class="row">
     <section class="col-3">
-      <h5 class="text-warning ms-3">Brands</h5>
+      <ng-container *ngIf="types && brands">
+      <h5 class="text-warning ms-3">Sortare</h5>
       <select
         class="form-select my-3"
         (change)="onSortSelected($event.target.value)"
@@ -11,7 +12,7 @@
         </option>
       </select>
 
-      <h5 class="text-warning ms-3">Brands</h5>
+      <h5 class="text-warning ms-3">Producator</h5>
       <ul class="list-group mb-3">
         <li
           class="list-group-item"
@@ -23,7 +24,7 @@
           {{ brand.name }}
         </li>
       </ul>
-      <h5 class="text-warning ms-3">Types</h5>
+      <h5 class="text-warning ms-3">Categorie</h5>
       <ul class="list-group my-3">
         <li
           class="list-group-item"
@@ -35,6 +36,7 @@
           {{ type.name }}
         </li>
       </ul>
+    </ng-container>
     </section>
     <section class="col-9">
       <div class="d-flex justify-content-between align-items-center pb-3">
@@ -44,13 +46,13 @@
           [pageNumber]="this.shopParams.pageNumber"
         ></app-paging-header>
 
-        <div class="d-flex mt-2">
+        <div class="d-flex mt-2" *ngIf="products">
           <input
             (keyup.enter)="onSearch()"
             class="form-control me-2"
             #search
             style="width: 300px"
-            placeholder="Search"
+            placeholder="Cauta..."
             type="text"
           />
           <button (click)="onSearch()" class="btn btn-outline-primary mx-2">Search</button>
