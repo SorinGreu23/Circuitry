@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
 import { ServerErrorComponent } from './core/server-error/server-error.component';
@@ -17,6 +18,10 @@ const routes: Routes = [
   {path: 'checkout', loadChildren: () => import('./checkout/checkout.module').then(mod => mod.CheckoutModule), data: {breadcrumb: "Checkout"}},
   {path: '**', redirectTo: 'not-found', pathMatch: 'full'}
 ];
+=======
+
+const routes: Routes = [];
+>>>>>>> c3422c0709b2b8ee26575143cf56f7b4626ce53b
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
