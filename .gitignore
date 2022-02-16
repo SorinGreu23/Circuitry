@@ -5,3 +5,5 @@ appsettings.json
 *.rdb
 .vs
 .vscode
+.db-shm
+.db-wal
