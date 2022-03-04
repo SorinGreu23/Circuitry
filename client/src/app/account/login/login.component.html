@@ -1,0 +1,38 @@
+<div class="container text-center mt-5">
+  <div class="row d-flex justify-content-center">
+    <main class="form-signin col-4">
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <h1 class="h3 mb-3 fw-normal py-3">Login</h1>
+        <app-text-input
+          formControlName="email"
+          [label]="'Email Address'"
+        ></app-text-input>
+        <app-text-input
+          formControlName="password"
+          [label]="'Password'"
+          [type]="'password'"
+        ></app-text-input>
+        <button
+          [disabled]="loginForm.invalid"
+          class="w-100 my-3 btn btn-lg btn-primary"
+          type="submit"
+        >
+          Sign in
+        </button>
+        <div class="my-4">
+          <p>
+            Nu ai un cont?
+            <a routerLink="/account/register">Inregistreaza-te!</a>
+          </p>
+        </div>
+      </form>
+    </main>
+    <!-- <div class="col-4">
+      <p>Form Status: {{ loginForm.status }}</p>
+      <p>Email Satus: {{ loginForm.get("email").status }}</p>
+      <p>Email Touched: {{ loginForm.get("email").touched }}</p>
+      <p>Email Dirty: {{ loginForm.get("email").dirty }}</p>
+      <pre>{{ loginForm.value | json }}</pre>
+    </div> -->
+  </div>
+</div>
