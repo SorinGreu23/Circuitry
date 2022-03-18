@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "ShortName": "Fan Courier",
+    "Description": "Optiune recomandata",
+    "DeliveryTime": "1-2 Zile",
+    "Price": 10
+  },
+  {
+    "Id": 2,
+    "ShortName": "Sameday",
+    "Description": "Ajunge la tine in maxim 5 zile",
+    "DeliveryTime": "2-5 Zile",
+    "Price": 5
+  },
+  {
+    "Id": 3,
+    "ShortName": "GLS",
+    "Description": "Optiune accesibila",
+    "DeliveryTime": "5-10 Zile",
+    "Price": 2
+  },
+  {
+    "Id": 4,
+    "ShortName": "Showroom",
+    "Description": "Ridica din showroom gratuit!",
+    "DeliveryTime": "1-2 Zile",
+    "Price": 0
+  }
+]

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Core.Entities;
+using Core.Entities.OrderAggregate;
 using Microsoft.Extensions.Logging;
 
 namespace Infrastructure.Data
@@ -15,6 +16,7 @@ namespace Infrastructure.Data
         {
             try
             {
+                // Product Brands Data Seeding
                 if (!context.ProductBrands.Any())
                 {
                     var brandsData = File.ReadAllText("../Infrastructure/Data/SeedData/brands.json");
@@ -25,6 +27,8 @@ namespace Infrastructure.Data
                     }
                     await context.SaveChangesAsync();
                 }
+
+                // Product Types Data Seeding
                 if (!context.ProductTypes.Any())
                 {
                     var typesData = File.ReadAllText("../Infrastructure/Data/SeedData/types.json");
@@ -35,6 +39,8 @@ namespace Infrastructure.Data
                     }
                     await context.SaveChangesAsync();
                 }
+
+                // Products Data Seeding
                 if (!context.Products.Any())
                 {
                     var productsData = File.ReadAllText("../Infrastructure/Data/SeedData/products.json");
@@ -42,6 +48,18 @@ namespace Infrastructure.Data
                     foreach (var item in products)
                     {
                         context.Products.Add(item);
+                    }
+                    await context.SaveChangesAsync();
+                }
+
+                // Delivery Data Seeding
+                if (!context.DeliveryMethods.Any())
+                {
+                    var deliveryData = File.ReadAllText("../Infrastructure/Data/SeedData/delivery.json");
+                    var methods = JsonSerializer.Deserialize<List<DeliveryMethod>>(deliveryData);
+                    foreach (var item in methods)
+                    {
+                        context.DeliveryMethods.Add(item);
                     }
                     await context.SaveChangesAsync();
                 }
