@@ -1,0 +1,52 @@
+<div class="mt-4" [formGroup]="checkoutForm">
+  <div class="d-flex justify-content-between align-items-center">
+    <h4>Adresa de livrare</h4>
+    <button class="btn btn-outline-success" (click)="saveUserAddress()" [disabled]="!checkoutForm.get('addressForm').valid || !checkoutForm.get('addressForm').dirty">Salveaza</button>
+  </div>
+  <div class="row mt-3" formGroupName="addressForm">
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Nume'"
+        formControlName="lastName"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Prenume'"
+        formControlName="firstName"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Strada'"
+        formControlName="street"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input [label]="'Oras'" formControlName="city"></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Judet'"
+        formControlName="state"
+      ></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input
+        [label]="'Cod Postal'"
+        formControlName="zipCode"
+      ></app-text-input>
+    </div>
+  </div>
+</div>
+
+<div
+  class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5 pt-4"
+>
+  <button class="btn btn-outline-primary" routerLink="/basket">
+    <i class="fa fa-angle-left"></i> Inapoi la cos
+  </button>
+  <button class="btn btn-primary" cdkStepperNext>
+    Mergi la livrare <i class="fa fa-angle-right"></i>
+  </button>
+</div>
