@@ -7,11 +7,11 @@
     </p>
     <ul class="list-unstyled mb-4" *ngIf="(basketTotal$ | async) as totals">
         <li class="d-flex justify-content-between py-3 border-bottom">
-            <strong class="text-muted">Order subtotal</strong>
+            <strong class="text-muted">Pret initial</strong>
             <strong>{{totals.subtotal | currency: 'RON '}}</strong>
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
-            <strong class="text-muted">Shipping and handling</strong>
+            <strong class="text-muted">Pret livrare</strong>
             <strong>{{totals.shipping | currency: 'RON '}}</strong>
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
