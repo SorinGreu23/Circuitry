@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,14 +8,8 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace API.Helpers
 {
-    public class CachedAttribute : Attribute, IAsyncActionFilter
+    public class CachedAttribute(int timeToLiveInSeconds) : Attribute, IAsyncActionFilter
     {
-        private readonly int _timeToLiveInSeconds;
-        public CachedAttribute(int timeToLiveInSeconds)
-        {
-            _timeToLiveInSeconds = timeToLiveInSeconds;
-        }
-
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
             var cacheService = context.HttpContext.RequestServices.GetRequiredService<IResponseCacheService>();
@@ -40,10 +32,10 @@ namespace API.Helpers
                 return;
             }
 
-            var executedContext = await next(); // move to controller
+            var executedContext = await next();
             if(executedContext.Result is OkObjectResult okObjectResult)
             {
-                await cacheService.CacheResponseAsync(cacheKey, okObjectResult.Value, TimeSpan.FromSeconds(_timeToLiveInSeconds));
+                await cacheService.CacheResponseAsync(cacheKey, okObjectResult.Value, TimeSpan.FromSeconds(timeToLiveInSeconds));
             }
         }
 

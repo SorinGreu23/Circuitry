@@ -16,7 +16,7 @@ builder.Services.AddDbContext<StoreContext>(x => x.UseNpgsql(builder.Configurati
 builder.Services.AddDbContext<AppIdentityDbContext>(x => x.UseNpgsql(builder.Configuration.GetConnectionString("IdentityConnection")));
 builder.Services.AddSingleton<IConnectionMultiplexer>(c =>
 {
-    var configuration = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"), true);
+    var configuration = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis")!, true);
     return ConnectionMultiplexer.Connect(configuration);
 });
 builder.Services.AddApplicationServices();
